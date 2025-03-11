@@ -1,0 +1,468 @@
+body{
+  font-weight: Roboto,Arial;
+  margin: 0px;
+  background-color: gray;
+  background: rgba(0, 0, 0, 0.4);
+  backface-visibility: visible;
+  padding-bottom: 50px;
+}
+
+.container{
+  width: 1200px;
+  height: 1750px;
+  margin-left: 150px;
+  margin-top: 60px;
+  border-radius: 30px;
+  display: block;
+  background-color: white;
+}
+
+.first-container{
+  width: 1200px;
+  height: 60px;
+  border-radius: 30px;
+  display: flex;
+}
+
+.header{
+  margin-top: 15px;
+  margin-left: 20px;
+  font-family: 'YouTube Sans', sans-serif;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.cross_{
+  margin-left: 930px;
+  margin-top: 10px;
+  padding: 5px;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+.cross{
+  height: 35px;
+  width: 35px;
+}
+
+.cross:hover{
+  background-color: rgb(209, 209, 209);
+  border-radius: 30px;
+}
+
+.second-container{
+  height: 330px;
+  width: 1200px;
+  display: flex;
+}
+
+
+.left-con{
+  width: 600px;
+}
+
+.left-2,
+.tag2,
+.des,
+.heading4,
+.title4,
+.des4{
+  margin-top: 15px;
+  margin-left: 20px;
+  font-family: 'YouTube Sans', sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+  color: #aaaaaa;
+}
+
+.tag2,
+.title4{
+  margin-left: 20px;
+  font-family: Arial;
+  font-size: 15px;
+  color: black;
+  margin-top: -10px;
+}
+
+.des,
+.des4{
+  margin-left: 20px;
+  font-family: Arial;
+  font-size: 12px;
+  color: #aaaaaa;
+  margin-top: -10px;
+}
+
+.left-lower{
+  width: 600px;
+  margin-left: 20px;
+  border-width: 1px;
+  border-style: solid;
+  height: 200px;
+  border-radius: 20px;
+  border-color: rgb(163, 163, 163);
+}
+
+.first-part,
+.second-part,
+.third-part{
+  height: 50px;
+  display: flex;
+}
+
+.first,
+.second,
+.third{
+  margin-top: 18px;
+  margin-left: 20px;
+  font-family: "Roboto", serif;
+}
+
+.downarrow{
+  margin-top: 20px;
+  margin-left: 425px;
+  height: 18px;
+  padding: 5px;
+  border-radius: 20px;
+}
+
+.downarrow:hover{
+  background-color: rgb(209,209,209);
+  cursor: pointer;
+}
+
+.downarrow1{
+  margin-top: 20px;
+  margin-left: 478px;
+  height: 18px;
+  padding: 5px;
+  border-radius: 20px;
+}
+
+.downarrow1:hover{
+  background-color: rgb(209,209,209);
+  cursor: pointer;
+}
+
+.downarrow2{
+  margin-top: 20px;
+  margin-left: 460px;
+  height: 18px;
+  padding: 5px;
+  border-radius: 20px;
+}
+
+.downarrow2:hover{
+  background-color: rgb(209,209,209);
+  cursor: pointer;
+}
+
+.right-part{
+  margin-left: 100px;
+  margin-top: 20px;
+  width: 300px;
+  height: 170px;
+  border-radius: 20px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(163, 163, 163);
+}
+
+.tag{
+  font-family: 'YouTube Sans', sans-serif;
+  font-size: 18px;
+  margin-top: 15px;
+  margin-left: 20px;
+}
+
+.right-part-des{
+  font-family: "Roboto", serif;
+  font-size: 13px;
+  margin-left: 18px;
+  width: 270px;
+  line-height: 18px;
+}
+
+.blue{
+  color: #3EA6FF;
+  cursor: pointer;
+}
+
+.learn-more{
+  height: 30px;
+  width: 100px;
+  margin-left: 20px;
+  border-radius: 20px;
+  border: none;
+  font-family: 'YouTube Sans', sans-serif;
+  cursor: pointer;
+}
+
+.learn-more:hover{
+  opacity: 0.7;
+}
+
+.learn-more:active{
+  transform: scale(0.98);
+  transition-duration: 0.01s;
+}
+
+.last-tag{
+  margin-top: 20px;
+  margin-left: 5px;
+  font-family: "Roboto", serif;
+  font-size: 15px;
+  color: #aaaaaa;
+}
+
+.third-container{
+  height: 410px;
+}
+
+.third-title,
+.fifth-title{
+  font-family: "Roboto", serif;
+  font-size: 17px;
+  margin-left: 20px;
+  font-weight: bold;
+}
+
+.third-first,
+.fifth-first{
+  font-family: "Roboto", serif;
+  font-size: 14px;
+  margin-left: 20px;
+  margin-top: -15px;
+}
+
+.info-logo{
+  margin-top: -34px;
+  margin-left: 220px;
+  display: flex;
+}
+
+.info{
+  align-items: center;
+  height: 20px;
+  margin-left: 10px;
+}
+
+.eligi-1,
+.eligi-2,
+.eligi-3,
+.eligi-4{
+  margin-left: 20px;
+  width: 610px;
+  height: 8px;
+  background-color: rgb(159, 158, 158);
+  border-radius: 20px;
+  margin-top: -10px;  
+}
+
+.eligi-2,
+.eligi-3,
+.eligi-4{
+  margin-top: -1px; 
+}
+
+.sub-count,
+.vid-count,
+.watchhours,
+.watchshorts{
+  font-family: "Roboto", serif;
+  font-size: 14px;
+  margin-left: 20px;
+  margin-top: 3px;
+}
+
+.five100,
+.three{
+  margin-left: 490px;
+}
+
+.three1000,
+.threeM{
+  margin-left: 445px;
+}
+
+.watchcount,
+.shortcount{
+  font-family: "Roboto", serif;
+  font-size: 14px;
+  margin-top: -13px;
+  margin-left: 20px;
+}
+
+.since{
+  font-family: "Roboto", serif;
+  font-size: 14px;
+  margin-left: 20px;
+  margin-top: -10px;
+  color: #aaaaaa;
+}
+
+.following,
+.question{
+  font-family: "Roboto", serif;
+  font-size: 14px;
+  margin-left: 300px;
+  font-weight: bold;
+}
+
+.question{
+  font-size: 17px;
+  margin-left: 260px;
+}
+
+.getNotified{
+  height: 35px;
+  width: 110px;
+  margin-left: 350px;
+  border-radius: 20px;
+  border: none;
+  font-family: 'YouTube Sans', sans-serif;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.getNotified:hover{
+  opacity: 0.7;
+}
+
+.getNotified:active{
+  transform: scale(0.98);
+  transition-duration: 0.01s;
+}
+
+.fourth-container{
+  height: 200px;
+}
+
+.header4{
+  width: 600px;
+  margin-left: 20px;
+  border-width: 1px;
+  border-style: solid;
+  height: 110px;
+  border-radius: 20px;
+  border-color: rgb(163, 163, 163);
+}
+
+.part41,
+.part42{
+  height: 42px;
+  display: flex;
+  margin-bottom: 0px;
+}
+
+.first4,
+.second4{
+  margin-left: 20px;
+  width: 150px;
+}
+
+.second4{
+  margin-top: 8px;
+}
+
+.downarrow3,
+.downarrow4{
+  margin-top: 8px;
+  margin-left: 380px;
+  height: 18px;
+  padding: 5px;
+  border-radius: 20px;
+}
+
+.downarrow3:hover,
+.downarrow4:hover{
+  background-color: rgb(209,209,209);
+  cursor: pointer;
+}
+
+.sixth-container{
+  margin-top: 30px;
+  height: 180px;
+}
+
+.title6,
+.title7{
+  margin-left: 20px;
+  font-family: "Roboto", serif;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.inner6,
+.inner7{  
+  width:600px;
+  margin-left: 30px;
+  border-width: 1px;
+  border-radius: 20px;
+  border-style: solid;
+  border-color: rgb(163, 163, 163);
+}
+
+.inner7{
+  display: flex;
+  width: 600px;
+}
+
+.inner61{
+  display: flex;
+}
+
+.feed,
+.copy{
+  width: 350px;
+  height: 60px;
+  display: flex;
+}
+
+.link{
+  width: 350px;
+  display: flex;
+}
+
+.feedback{
+  height: 35px;
+  margin-left: 30px;
+  margin-top: 10px;
+  margin-bottom: -15px;
+  margin-right: 10px;
+}
+
+.feed-title{
+  font-size: 16px;
+  color: #50adff;
+  cursor: pointer;
+  cursor: pointer;
+}
+
+.inner71{
+  margin-left: 20px;
+  justify-content: space-between;
+  margin-right: 10px;
+}
+
+.inner71-title,
+.inner72-title,
+.inner73-title{
+  font-family: 'YouTube Sans', sans-serif;
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+
+.inner71op1{
+  font-family: "Roboto", serif;
+  font-size: 14px;
+  margin-top: -10px;
+  line-height: 20px;
+  color: #aaaaaa;
+  cursor: pointer;   
+}
+
+.inner72{
+  margin-right: 50px;
+  margin-left: 20px;
+}
