@@ -1,0 +1,9 @@
+[build]
+  publish = "."
+
+[[redirects]]
+  from = "/"
+  to = "/Youtube2.0/html/dashboard.html"
+  status = 200
+  force = true
+
