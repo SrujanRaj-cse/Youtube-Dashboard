@@ -1,0 +1,219 @@
+body{
+  font-weight: Roboto,Arial;
+  margin: 0px;
+  background-color: gray;
+  background: rgba(0, 0, 0, 0.4);
+  backface-visibility: visible;
+}
+
+.container{
+  width: 1300px;
+  height: 650px;
+  margin-left: 120px;
+  margin-top: 60px;
+  border-radius: 30px;
+  display: block;
+  background-color: white;
+}
+
+.first-container{
+  width: 1300px;
+  height: 60px;
+  border-radius: 30px;
+  display: flex;
+  justify-content: space-between; 
+}
+
+.title{
+  margin-top: 15px;
+  margin-left: 20px;
+  font-family: 'YouTube Sans', sans-serif;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.options{
+  width: 1300px;
+  display: flex;
+  border-bottom-width: 0.1px;
+  border-bottom-style: solid;
+}
+
+a p{
+  color: black;
+}
+
+a{
+  text-decoration: none;
+}
+
+.inspiration,
+.videos,
+.shorts,
+.live,
+.posts,
+.playlists,
+.podcasts,
+.promotion{
+  font-family: 'YouTube Sans', sans-serif;
+  font-size: 18px;
+  margin-left: 20px;
+  margin-right: 20px;
+  cursor: pointer;
+  transition: opacity 0.15s;
+}
+
+.pod{
+  height: 50px;
+  background-color: rgb(230, 230, 230);
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.podcasts{
+  margin-top: 10px;
+}
+
+.videos:hover{
+  margin-bottom: 10px;
+}
+
+.inspire:hover{
+  opacity: 0.5;
+}
+
+.short:hover{
+  opacity: 0.5;
+}
+
+.live_:hover{
+  opacity: 0.5;
+}
+
+.post:hover{
+  opacity: 0.5;
+}
+
+.play:hover{
+  opacity: 0.5;
+}
+
+.pod:hover{
+  opacity: 0.5;
+}
+
+.pro:hover{
+  opacity: 0.5;
+}
+
+.additional_{
+  margin-bottom: -35px;
+  width: 1300px;
+  height: 80px;
+  border-radius: 30px;
+  display: flex;
+}
+
+.left{
+  margin-left: 20px;
+  display: flex;
+}
+
+.video{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  margin-top: 15px;
+  margin-left: 10px;
+}
+
+.middle{
+  margin-left: 1000px;
+  display: flex;
+  margin-left: 380px;
+  width: 900px;
+}
+
+.first,
+.second,
+.third{
+  font-family: Arial;
+  font-size: 14px;
+  margin-right: 30px;
+  cursor: pointer;
+  transition: opacity 0.15s;
+}
+
+.first:hover{
+  opacity: 0.5;
+}
+
+.second:hover{
+  opacity: 0.5;
+}
+
+.third:hover{
+  opacity: 0.5;
+}
+
+.first_opt,
+.second_opt,
+.third_opt{
+  margin-left: 40px;
+}
+
+.third_opt{
+  display: flex;
+}
+
+.no-content{
+  margin-left: 550px;
+}
+
+.avail{
+  margin-left: 400px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 17px;
+  margin-top: -5px;
+}
+
+.line-first{
+  display: block;
+  margin-left: 170px;
+  line-height: 40px;
+}
+
+.line-color{
+  color: #3ea6ff;
+  cursor: pointer;
+}
+
+.upload{
+  margin-left: 610px;
+  height: 40px;
+  width: 130px;
+  border-radius: 20px;
+  border-style: none;
+  font-family: 'YouTube Sans', sans-serif;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.upload:hover{
+  opacity: 0.7;
+}
+
+.upload:active{
+  transform: scale(0.98);
+  transition-duration: 0.01s;
+}
+
+
+
+a:focus-visible,
+button:focus-visible,
+input:focus-visible{
+  outline: 2px solid #1a73e8;
+  outline-offset: 3px;
+}

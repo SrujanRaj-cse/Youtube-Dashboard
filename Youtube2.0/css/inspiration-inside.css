@@ -1,0 +1,109 @@
+body{
+  font-weight: Roboto,Arial;
+  margin: 0px;
+  background-color: gray;
+  background: rgba(0, 0, 0, 0.4);
+  backface-visibility: visible;
+}
+
+.container{
+  width: 1100px;
+  height: 650px;
+  margin-left: 250px;
+  margin-top: 60px;
+  border-radius: 30px;
+  display: block;
+  background-color: white;
+}
+
+.first-container{
+  width: 1100px;
+  height: 60px;
+  border-radius: 30px;
+  display: flex;
+  justify-content: space-between; 
+}
+
+.arrow{
+  margin-left: 20px;
+  margin-top: 20px;
+  margin-right: 10px;
+  display: flex;
+  border-radius: 30px;
+  padding: 5px;
+  transition: background-color 0.15s;
+  cursor: pointer;
+}
+
+.arrow:hover{
+  background-color: rgb(209, 209, 209);
+}
+
+.left_arrow{
+  width: 35px;
+}
+
+.title{
+  margin-top: 15px;
+  margin-right: 900px;
+  font-family: 'YouTube Sans', sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.main{
+  margin-top: 60px;
+  width: 1100px;
+  display: flex;
+}
+
+.first_{
+  margin-top: -30px;
+  margin-left: 50px;
+  font-family: 'YouTube Sans', sans-serif;
+  font-weight: bold;
+  font-size: 35px;
+}
+
+.inner{
+  margin-top: 60px;
+} 
+
+.des{
+  margin-top: 5px;
+  width: 360px;
+  border-radius: 20px;
+  border-style: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 19px;
+}
+
+.back{
+  margin-left: 70px;
+  height: 40px;
+  width: 150px;
+  border-radius: 20px;
+  border-width: 2px;
+  border-style: solid;
+  font-family: 'YouTube Sans', sans-serif;
+  font-size: 15px;
+  cursor: pointer;
+  background-color: white;
+}
+
+.back:hover{
+  opacity: 0.7;
+}
+
+.back:active{
+  transform: scale(0.98);
+  transition-duration: 0.01s;
+}
+
+
+a:focus-visible,
+button:focus-visible,
+input:focus-visible{
+  outline: 2px solid #1a73e8;
+  outline-offset: 3px;
+}

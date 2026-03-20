@@ -1,0 +1,180 @@
+body{
+  font-weight: Roboto,Arial;
+  margin: 0px;
+  background-color: gray;
+  background: rgba(0, 0, 0, 0.4);
+  backface-visibility: visible;
+}
+
+.container{
+  width: 1300px;
+  height: 650px;
+  margin-left: 120px;
+  margin-top: 60px;
+  border-radius: 30px;
+  display: block;
+  background-color: white;
+}
+
+.first-container{
+  width: 1300px;
+  height: 60px;
+  border-radius: 30px;
+  display: flex;
+  justify-content: space-between; 
+}
+
+.title{
+  margin-top: 15px;
+  margin-left: 20px;
+  font-family: 'YouTube Sans', sans-serif;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.options{
+  width: 1300px;
+  display: flex;
+  border-bottom-width: 0.1px;
+  border-bottom-style: solid;
+}
+
+a p{
+  color: black;
+}
+
+a{
+  text-decoration: none;
+}
+
+.comment,
+.mentions{
+  font-family: 'YouTube Sans', sans-serif;
+  font-size: 18px;
+  margin-left: 20px;
+  margin-right: 20px;
+  cursor: pointer;
+  transition: opacity 0.15s;
+}
+
+.comm{
+  height: 50px;
+  background-color: rgb(230, 230, 230);
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.comment{
+  margin-top: 10px;
+}
+
+.comment:hover{
+  margin-bottom: 10px;
+}
+
+.men:hover{
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+.filters-block{
+  width: 1200px;
+  height: 60px;
+  border-radius: 30px;
+  display: flex;
+  margin-bottom: -15px;
+}
+
+.filters_svg{
+  height: 28px;
+  margin-top: 10px;
+  margin-left: 20px;
+  margin-right: 30px;
+  padding: 5px;
+  cursor: pointer;
+  border-radius: 20px;
+}
+
+.filters_svg:hover{
+  background-color: rgb(209, 209, 209);
+}
+
+.pub,
+.sort{
+  margin-top: 13px;
+  width: 100px;
+  height: 30px;
+  margin-right: 10px;
+  border-radius: 8px;
+  font-family: 'YouTube Sans', sans-serif;
+  font-size: 15px;
+  border: none;
+  cursor: pointer;
+}
+
+.sort{
+  width: 85px;
+}
+
+.pub:hover{
+  opacity: 0.7;
+}
+
+.pub:active{
+  transform: scale(0.98);
+  transition-duration: 0.01s;
+}
+
+.sort:hover{
+  opacity: 0.7;
+}
+
+.sort:active{
+  transform: scale(0.98);
+  transition-duration: 0.01s;
+}
+
+.filter{
+  font-family: 'YouTube Sans', sans-serif;
+  font-size: 18px;
+  margin-top: 15px;
+}
+
+.no-content{
+  margin-top: 90px;
+  margin-left: 550px;
+}
+
+.avail{
+  margin-left: 580px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 17px;
+  margin-top: -5px;
+}
+
+.cross_{
+  margin-left: 1000px;
+  margin-top: 10px;
+  padding: 5px;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+.cross{
+  height: 35px;
+  width: 35px;
+}
+
+.cross:hover{
+  background-color: rgb(209, 209, 209);
+  border-radius: 30px;
+}
+
+a:focus-visible,
+button:focus-visible,
+input:focus-visible{
+  outline: 2px solid #1a73e8;
+  outline-offset: 3px;
+}
