@@ -1,9 +1,9 @@
 [build]
-  publish = "Youtube2.0"
+  publish = "Youtube2.0/html"
 
 [[redirects]]
   from = "/"
-  to = "/html/dashboard.html"
+  to = "/dashboard.html"
   status = 200
   force = true
 
