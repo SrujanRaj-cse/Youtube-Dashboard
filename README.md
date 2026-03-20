@@ -7,7 +7,7 @@ This project focuses on replicating the layout and design of YouTube’s interfa
 
 ## 🔗 Live Demo
 
-`https://your-live-link.com`
+`https://youtube-dashboard-clone.netlify.app/`
 
 ---
 
@@ -35,12 +35,20 @@ This project focuses on replicating the layout and design of YouTube’s interfa
 Youtube_DashBoard/
 │
 ├── Youtube2.0/
-│   ├── html files/
-│   │   └── index.html
-│   ├── css files/
+│   ├── html/
+│   │   ├── dashboard.html
+│   │   └── ...
+│   ├── css/
+│   ├── images/
+│   ├── images-channel/
 │   ├── images-content/
-│   └── js files/ (if any)
+│   ├── images-earn/
+│   ├── images-inspiration/
+│   ├── images-trends/
+│   ├── images-upload/
+│   └── index.html
 │
+├── netlify.toml
 └── README.md
 ```
 
@@ -57,16 +65,20 @@ git clone https://github.com/SrujanRaj-cse/Youtube-Dashboard.git
 2. Navigate to the project folder:
 
 ```
-cd Youtube_DashBoard/Youtube2.0/html\ files
+cd Youtube_DashBoard/Youtube2.0
 ```
 
-3. Open the project:
+3. Run a local server:
 
 ```
-xdg-open index.html
+python3 -m http.server 8000
 ```
 
-👉 Or simply double-click `index.html`
+4. Open in browser:
+
+```
+http://localhost:8000/html/dashboard.html
+```
 
 ---
 
